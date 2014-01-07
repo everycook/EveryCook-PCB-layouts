@@ -77,10 +77,10 @@
 <wire x1="-4.445" y1="5.461" x2="77.851" y2="5.334" width="0.254" layer="20"/>
 <wire x1="-4.445" y1="46.609" x2="77.851" y2="46.482" width="0.254" layer="20"/>
 <wire x1="-4.445" y1="46.609" x2="-4.445" y2="5.461" width="0.254" layer="20"/>
-<text x="-2.413" y="23.114" size="1.27" layer="21" ratio="20" rot="R90">EveryCook.org/opensource</text>
+<text x="-1.143" y="25.654" size="1.27" layer="21" ratio="20" rot="R90">EveryCook.org/github</text>
 <text x="68.453" y="46.355" size="1.016" layer="27" ratio="20">+</text>
 <text x="68.58" y="51.943" size="1.016" layer="27" ratio="20">-</text>
-<text x="0.127" y="6.604" size="1.778" layer="21" ratio="20" rot="R90">LOL DISPLAY</text>
+<text x="-1.143" y="9.144" size="1.778" layer="21" ratio="20" rot="R90">LOL DISPLAY</text>
 <text x="6.985" y="46.482" size="1.778" layer="52" rot="MR0">v1.5</text>
 <wire x1="77.851" y1="5.334" x2="77.851" y2="46.482" width="0.254" layer="20"/>
 <hole x="-2.54" y="44.45" drill="1.3"/>
