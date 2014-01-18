@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -11885,15 +11885,6 @@ Source: http://catalog.osram-os.com .. LG_LS_LY_T679_OBS.pdf</description>
 <wire x1="133.35" y1="146.05" x2="151.13" y2="146.05" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$49" class="0">
-<segment>
-<pinref part="DISPLAY" gate="A" pin="2"/>
-<wire x1="158.75" y1="146.05" x2="167.64" y2="146.05" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="146.05" x2="167.64" y2="170.18" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="(PCINT0/ADC0)PA0"/>
-<wire x1="167.64" y1="170.18" x2="106.68" y2="170.18" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="FAN_PWM" class="0">
 <segment>
 <pinref part="R4" gate="G$1" pin="1"/>
@@ -12163,9 +12154,7 @@ Source: http://catalog.osram-os.com .. LG_LS_LY_T679_OBS.pdf</description>
 </net>
 <net name="RPI_RST" class="0">
 <segment>
-<wire x1="100.33" y1="93.98" x2="99.06" y2="127" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="(PCINT17/SDA)PC1"/>
-<wire x1="99.06" y1="127" x2="106.68" y2="127" width="0.1524" layer="91"/>
+<wire x1="100.33" y1="93.98" x2="78.74" y2="127" width="0.1524" layer="91"/>
 <pinref part="R47" gate="G$1" pin="1"/>
 <junction x="100.33" y="93.98"/>
 <label x="110.49" y="97.79" size="1.778" layer="95" rot="R180"/>
@@ -12174,6 +12163,9 @@ Source: http://catalog.osram-os.com .. LG_LS_LY_T679_OBS.pdf</description>
 <wire x1="82.55" y1="86.36" x2="82.55" y2="97.79" width="0.1524" layer="91"/>
 <wire x1="82.55" y1="97.79" x2="100.33" y2="97.79" width="0.1524" layer="91"/>
 <wire x1="100.33" y1="97.79" x2="100.33" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="127" x2="78.74" y2="170.18" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="(PCINT0/ADC0)PA0"/>
+<wire x1="78.74" y1="170.18" x2="106.68" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$71" class="0">
@@ -12302,6 +12294,15 @@ Source: http://catalog.osram-os.com .. LG_LS_LY_T679_OBS.pdf</description>
 <pinref part="RPI_RST" gate="G$1" pin="C"/>
 <pinref part="R13" gate="G$1" pin="2"/>
 <wire x1="64.77" y1="86.36" x2="63.5" y2="86.36" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="(PCINT17/SDA)PC1"/>
+<wire x1="106.68" y1="127" x2="167.64" y2="127" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="127" x2="167.64" y2="146.05" width="0.1524" layer="91"/>
+<pinref part="DISPLAY" gate="A" pin="2"/>
+<wire x1="158.75" y1="146.05" x2="167.64" y2="146.05" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
