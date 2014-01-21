@@ -60,61 +60,67 @@
 <description>&lt;b&gt;Thyristors, Triacs, Trigger Diodes&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="TOP3L-1">
-<description>&lt;b&gt;TOP 3&lt;/b&gt; horizontal (Anode1; Anode2; Gate)</description>
-<wire x1="-7.874" y1="-1.778" x2="7.874" y2="-1.778" width="0.1524" layer="21"/>
-<wire x1="7.874" y1="8.763" x2="7.874" y2="-1.778" width="0.1524" layer="21"/>
-<wire x1="-7.874" y1="-1.778" x2="-7.874" y2="8.763" width="0.1524" layer="21"/>
-<wire x1="-7.874" y1="8.763" x2="-7.874" y2="11.811" width="0.1524" layer="21"/>
-<wire x1="-7.874" y1="11.811" x2="-3.1242" y2="15.8496" width="0.1524" layer="21"/>
-<wire x1="7.874" y1="8.763" x2="-7.874" y2="8.763" width="0.1524" layer="21"/>
-<wire x1="7.874" y1="8.763" x2="7.874" y2="11.811" width="0.1524" layer="21"/>
-<wire x1="7.366" y1="8.255" x2="7.366" y2="-1.27" width="0.0508" layer="21"/>
-<wire x1="7.366" y1="8.255" x2="-7.366" y2="8.255" width="0.0508" layer="21"/>
-<wire x1="-7.366" y1="-1.27" x2="-7.366" y2="8.255" width="0.0508" layer="21"/>
-<wire x1="0" y1="17.145" x2="3.1431" y2="15.8431" width="0.1524" layer="21" curve="-45.000078"/>
-<wire x1="-3.1431" y1="15.8431" x2="0" y2="17.145" width="0.1524" layer="21" curve="-45.000078"/>
-<wire x1="7.874" y1="11.811" x2="3.1242" y2="15.875" width="0.1524" layer="21"/>
-<circle x="0" y="12.7" radius="2.159" width="0.1524" layer="21"/>
-<circle x="0" y="12.7" radius="5.08" width="0" layer="42"/>
-<circle x="0" y="12.7" radius="5.08" width="0" layer="43"/>
-<pad name="A1" x="-5.588" y="-7.62" drill="1.397" shape="long" rot="R90"/>
-<pad name="A2" x="0" y="-7.62" drill="1.397" shape="long" rot="R90"/>
-<pad name="G" x="5.588" y="-7.62" drill="1.397" shape="long" rot="R90"/>
-<text x="-5.08" y="5.08" size="1.778" layer="25" ratio="10">&gt;NAME</text>
-<text x="-5.08" y="2.54" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
-<text x="-7.366" y="9.144" size="0.9906" layer="21" ratio="10">A20,3mm</text>
-<rectangle x1="-6.223" y1="-3.81" x2="-3.81" y2="-1.778" layer="21"/>
-<rectangle x1="-1.397" y1="-3.81" x2="1.397" y2="-1.778" layer="21"/>
-<rectangle x1="3.81" y1="-3.81" x2="6.223" y2="-1.778" layer="21"/>
-<rectangle x1="-6.223" y1="-5.588" x2="-4.953" y2="-3.81" layer="21"/>
-<rectangle x1="-6.223" y1="-7.62" x2="-4.953" y2="-5.588" layer="51"/>
-<rectangle x1="-0.635" y1="-5.588" x2="0.635" y2="-3.81" layer="21"/>
-<rectangle x1="-0.635" y1="-7.62" x2="0.635" y2="-5.588" layer="51"/>
-<rectangle x1="4.953" y1="-5.588" x2="6.223" y2="-3.81" layer="21"/>
-<rectangle x1="4.953" y1="-7.62" x2="6.223" y2="-5.588" layer="51"/>
-<hole x="0" y="12.7" drill="4.1148"/>
+<package name="TO220BV">
+<description>&lt;b&gt;Molded Package&lt;/b&gt;&lt;p&gt;
+grid 2.54 mm</description>
+<wire x1="4.699" y1="-4.318" x2="4.953" y2="-4.064" width="0.1524" layer="21"/>
+<wire x1="4.699" y1="-4.318" x2="-4.699" y2="-4.318" width="0.1524" layer="21"/>
+<wire x1="-4.953" y1="-4.064" x2="-4.699" y2="-4.318" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="-1.143" x2="4.953" y2="-4.064" width="0.1524" layer="21"/>
+<wire x1="-4.953" y1="-4.064" x2="-5.08" y2="-1.143" width="0.1524" layer="21"/>
+<circle x="-4.4958" y="-3.7084" radius="0.254" width="0" layer="21"/>
+<pad name="T1" x="-2.54" y="-2.54" drill="1.016" shape="long" rot="R90"/>
+<pad name="T2" x="0" y="-2.54" drill="1.016" shape="long" rot="R90"/>
+<pad name="G" x="2.54" y="-2.54" drill="1.016" shape="long" rot="R90"/>
+<text x="-5.08" y="-6.0452" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-5.08" y="-7.62" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-5.334" y1="-0.762" x2="5.334" y2="0" layer="21"/>
+<rectangle x1="-5.334" y1="-1.27" x2="-3.429" y2="-0.762" layer="21"/>
+<rectangle x1="-1.651" y1="-1.27" x2="-0.889" y2="-0.762" layer="21"/>
+<rectangle x1="-3.429" y1="-1.27" x2="-1.651" y2="-0.762" layer="51"/>
+<rectangle x1="0.889" y1="-1.27" x2="1.651" y2="-0.762" layer="21"/>
+<rectangle x1="3.429" y1="-1.27" x2="5.334" y2="-0.762" layer="21"/>
+<rectangle x1="-0.889" y1="-1.27" x2="0.889" y2="-0.762" layer="51"/>
+<rectangle x1="1.651" y1="-1.27" x2="3.429" y2="-0.762" layer="51"/>
 </package>
-<package name="TOP3S-1">
-<description>&lt;b&gt;TOP 3&lt;/b&gt; vertical (Anode1; Anode2; Gate)</description>
-<wire x1="-6.985" y1="-5.08" x2="6.985" y2="-5.08" width="0.1524" layer="21"/>
-<wire x1="6.985" y1="-5.08" x2="7.366" y2="-4.699" width="0.1524" layer="21"/>
-<wire x1="7.366" y1="-4.699" x2="7.493" y2="-1.524" width="0.1524" layer="21"/>
-<wire x1="-6.985" y1="-5.08" x2="-7.366" y2="-4.699" width="0.1524" layer="21"/>
-<wire x1="-7.366" y1="-4.699" x2="-7.493" y2="-1.524" width="0.1524" layer="21"/>
-<pad name="A1" x="-5.461" y="-3.175" drill="1.397" shape="long" rot="R90"/>
-<pad name="A2" x="0" y="-3.175" drill="1.397" shape="long" rot="R90"/>
-<pad name="G" x="5.461" y="-3.175" drill="1.397" shape="long" rot="R90"/>
-<text x="-7.366" y="-6.858" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-1.397" y="-6.858" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-7.874" y1="-1.016" x2="7.874" y2="0" layer="21"/>
-<rectangle x1="-7.874" y1="-1.524" x2="-6.858" y2="-1.016" layer="21"/>
-<rectangle x1="-3.81" y1="-1.524" x2="-1.651" y2="-1.016" layer="21"/>
-<rectangle x1="6.858" y1="-1.524" x2="7.874" y2="-1.016" layer="21"/>
-<rectangle x1="1.651" y1="-1.524" x2="3.81" y2="-1.016" layer="21"/>
-<rectangle x1="-6.858" y1="-1.524" x2="-3.81" y2="-1.016" layer="51"/>
-<rectangle x1="-1.651" y1="-1.524" x2="1.651" y2="-1.016" layer="51"/>
-<rectangle x1="3.81" y1="-1.524" x2="6.858" y2="-1.016" layer="51"/>
+<package name="TO220BH">
+<description>&lt;b&gt;Molded Package&lt;/b&gt;&lt;p&gt;
+grid 2.54 mm</description>
+<wire x1="-5.207" y1="-1.27" x2="5.207" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="5.207" y1="14.605" x2="-5.207" y2="14.605" width="0.1524" layer="21"/>
+<wire x1="5.207" y1="-1.27" x2="5.207" y2="11.176" width="0.1524" layer="21"/>
+<wire x1="5.207" y1="11.176" x2="4.318" y2="11.176" width="0.1524" layer="21"/>
+<wire x1="4.318" y1="11.176" x2="4.318" y2="12.7" width="0.1524" layer="21"/>
+<wire x1="4.318" y1="12.7" x2="5.207" y2="12.7" width="0.1524" layer="21"/>
+<wire x1="5.207" y1="12.7" x2="5.207" y2="14.605" width="0.1524" layer="21"/>
+<wire x1="-5.207" y1="-1.27" x2="-5.207" y2="11.176" width="0.1524" layer="21"/>
+<wire x1="-5.207" y1="11.176" x2="-4.318" y2="11.176" width="0.1524" layer="21"/>
+<wire x1="-4.318" y1="11.176" x2="-4.318" y2="12.7" width="0.1524" layer="21"/>
+<wire x1="-4.318" y1="12.7" x2="-5.207" y2="12.7" width="0.1524" layer="21"/>
+<wire x1="-5.207" y1="12.7" x2="-5.207" y2="14.605" width="0.1524" layer="21"/>
+<wire x1="-4.572" y1="-0.635" x2="4.572" y2="-0.635" width="0.0508" layer="21"/>
+<wire x1="4.572" y1="7.62" x2="4.572" y2="-0.635" width="0.0508" layer="21"/>
+<wire x1="4.572" y1="7.62" x2="-4.572" y2="7.62" width="0.0508" layer="21"/>
+<wire x1="-4.572" y1="-0.635" x2="-4.572" y2="7.62" width="0.0508" layer="21"/>
+<circle x="0" y="11.176" radius="1.8034" width="0.1524" layer="21"/>
+<circle x="0" y="11.176" radius="4.191" width="0" layer="42"/>
+<circle x="0" y="11.176" radius="4.191" width="0" layer="43"/>
+<pad name="T1" x="-2.54" y="-6.35" drill="1.1176" shape="long" rot="R90"/>
+<pad name="T2" x="0" y="-6.35" drill="1.1176" shape="long" rot="R90"/>
+<pad name="G" x="2.54" y="-6.35" drill="1.1176" shape="long" rot="R90"/>
+<text x="-3.81" y="5.207" size="1.778" layer="25" ratio="10">&gt;NAME</text>
+<text x="-3.937" y="2.54" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-4.445" y="7.874" size="1.016" layer="21" ratio="10">A17,5mm</text>
+<rectangle x1="2.159" y1="-4.699" x2="2.921" y2="-4.064" layer="21"/>
+<rectangle x1="-0.381" y1="-4.699" x2="0.381" y2="-4.064" layer="21"/>
+<rectangle x1="-2.921" y1="-4.699" x2="-2.159" y2="-4.064" layer="21"/>
+<rectangle x1="-3.175" y1="-4.064" x2="-1.905" y2="-1.27" layer="21"/>
+<rectangle x1="-0.635" y1="-4.064" x2="0.635" y2="-1.27" layer="21"/>
+<rectangle x1="1.905" y1="-4.064" x2="3.175" y2="-1.27" layer="21"/>
+<rectangle x1="-2.921" y1="-6.604" x2="-2.159" y2="-4.699" layer="51"/>
+<rectangle x1="-0.381" y1="-6.604" x2="0.381" y2="-4.699" layer="51"/>
+<rectangle x1="2.159" y1="-6.604" x2="2.921" y2="-4.699" layer="51"/>
+<hole x="0" y="11.176" drill="3.302"/>
 </package>
 </packages>
 <symbols>
@@ -141,28 +147,29 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="BTA26" prefix="T">
-<description>&lt;b&gt;25A TRIAC&lt;/b&gt;&lt;p&gt;
-Source: http://www.st.com/stonline/products/literature/ds/7470.pdf</description>
+<deviceset name="BT138" prefix="T">
+<description>&lt;b&gt;TRIAC&lt;/b&gt;&lt;p&gt;
+Source: http://www.semiconductors.philips.com&lt;br&gt;
+BT138_SERIES_2.pdf</description>
 <gates>
-<gate name="-1" symbol="TRIAC" x="0" y="0"/>
+<gate name="G$1" symbol="TRIAC" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-H" package="TOP3L-1">
+<device name="-H" package="TO220BH">
 <connects>
-<connect gate="-1" pin="A1" pad="A1"/>
-<connect gate="-1" pin="A2" pad="A2"/>
-<connect gate="-1" pin="G" pad="G"/>
+<connect gate="G$1" pin="A1" pad="T1"/>
+<connect gate="G$1" pin="A2" pad="T2"/>
+<connect gate="G$1" pin="G" pad="G"/>
 </connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-V" package="TOP3S-1">
+<device name="-V" package="TO220BV">
 <connects>
-<connect gate="-1" pin="A1" pad="A1"/>
-<connect gate="-1" pin="A2" pad="A2"/>
-<connect gate="-1" pin="G" pad="G"/>
+<connect gate="G$1" pin="A1" pad="T1"/>
+<connect gate="G$1" pin="A2" pad="T2"/>
+<connect gate="G$1" pin="G" pad="G"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4707,7 +4714,6 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 </class>
 </classes>
 <parts>
-<part name="T1_THT" library="triac" deviceset="BTA26" device="-V" value="BTA26-V"/>
 <part name="OK1" library="optocoupler" deviceset="MOC30*" device="S" technology="31"/>
 <part name="R1" library="rcl" deviceset="R-EU_" device="M0805" value="470"/>
 <part name="R2" library="rcl" deviceset="R-EU_" device="M0805" value="200"/>
@@ -4739,14 +4745,14 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 <part name="R9" library="rcl" deviceset="R-EU_" device="M0805" value="819"/>
 <part name="R10" library="rcl" deviceset="R-EU_" device="M0805" value="819"/>
 <part name="MC_OK" library="led" deviceset="*_T679-?-1" device="E1F1" technology="LG"/>
-<part name="T1_SMT" library="transistor-power" deviceset="IRG4BC15UD-" device="S" value="BTA26-V"/>
+<part name="T1_SMT" library="transistor-power" deviceset="IRG4BC15UD-" device="S" value="BTA16"/>
+<part name="T1_THT" library="triac" deviceset="BT138" device="-V" value="BTA16"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="T1_THT" gate="-1" x="127" y="40.64" rot="R180"/>
 <instance part="OK1" gate="-1" x="154.94" y="40.64" rot="R180"/>
 <instance part="R1" gate="G$1" x="175.26" y="35.56" rot="R180"/>
 <instance part="R2" gate="G$1" x="134.62" y="45.72"/>
@@ -4782,6 +4788,7 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 <instance part="R10" gate="G$1" x="261.62" y="12.7" rot="R90"/>
 <instance part="MC_OK" gate="G$1" x="261.62" y="5.08"/>
 <instance part="T1_SMT" gate="G$1" x="127" y="55.88" rot="R180"/>
+<instance part="T1_THT" gate="G$1" x="129.54" y="40.64" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -4805,29 +4812,28 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 <net name="L_IN" class="0">
 <segment>
 <pinref part="PWR" gate="-1" pin="KL"/>
-<pinref part="T1_THT" gate="-1" pin="A1"/>
 <wire x1="106.68" y1="45.72" x2="116.84" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="45.72" x2="127" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="127" y1="45.72" x2="127" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="127" y1="45.72" x2="129.54" y2="45.72" width="0.1524" layer="91"/>
-<junction x="127" y="45.72"/>
+<wire x1="116.84" y1="45.72" x2="129.54" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 <pinref part="T1_SMT" gate="G$1" pin="E"/>
 <wire x1="124.46" y1="60.96" x2="116.84" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="60.96" x2="116.84" y2="45.72" width="0.1524" layer="91"/>
 <junction x="116.84" y="45.72"/>
+<pinref part="T1_THT" gate="G$1" pin="A1"/>
+<wire x1="129.54" y1="43.18" x2="129.54" y2="45.72" width="0.1524" layer="91"/>
+<junction x="129.54" y="45.72"/>
 </segment>
 </net>
 <net name="L_OUT" class="0">
 <segment>
-<pinref part="T1_THT" gate="-1" pin="A2"/>
 <pinref part="PWR" gate="-3" pin="KL"/>
-<wire x1="127" y1="35.56" x2="119.38" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="T1_SMT" gate="G$1" pin="C"/>
 <wire x1="119.38" y1="35.56" x2="106.68" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="50.8" x2="119.38" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="50.8" x2="119.38" y2="35.56" width="0.1524" layer="91"/>
 <junction x="119.38" y="35.56"/>
+<pinref part="T1_THT" gate="G$1" pin="A2"/>
+<wire x1="129.54" y1="35.56" x2="119.38" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TRIAC_DRV" class="0">
@@ -4835,12 +4841,12 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 <pinref part="OK1" gate="-1" pin="A1"/>
 <wire x1="144.78" y1="45.72" x2="142.24" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="45.72" x2="142.24" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="T1_THT" gate="-1" pin="G"/>
-<wire x1="142.24" y1="40.64" x2="132.08" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="40.64" x2="134.62" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="T1_SMT" gate="G$1" pin="G"/>
 <wire x1="132.08" y1="58.42" x2="142.24" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="58.42" x2="142.24" y2="45.72" width="0.1524" layer="91"/>
 <junction x="142.24" y="45.72"/>
+<pinref part="T1_THT" gate="G$1" pin="G"/>
 </segment>
 </net>
 <net name="N$2" class="0">
