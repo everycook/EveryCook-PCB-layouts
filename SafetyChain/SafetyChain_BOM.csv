@@ -1,0 +1,12 @@
+"Qty";"Value";"Device";"Package";"Parts";"Description";"COLOR";"MF";"MPN";"OC_FARNELL";"OC_NEWARK";
+"7";"";"PINHD-1X2";"1X02";"KILL_SW, RES1, RES2, RES3, THERMISTOR_10K, THERM_IGBT, THERM_POT";"PIN HEADER";"";"";"";"";"";
+"1";"";"PINHD-1X6";"1X06";"JP3";"PIN HEADER";"";"";"";"";"";
+"1";"";"PINHD-2X6";"2X06";"JP1";"PIN HEADER";"";"";"";"";"";
+"1";"";"W237-4";"W237-4";"PWR";"WAGO SCREW CLAMP";"";"";"";"unknown";"unknown";
+"1";"200";"R-EU_M0805";"M0805";"R2";"RESISTOR, European symbol";"";"";"";"";"";
+"1";"470";"R-EU_M0805";"M0805";"R1";"RESISTOR, European symbol";"";"";"";"";"";
+"7";"819";"R-EU_M0805";"M0805";"R4, R5, R6, R7, R8, R9, R10";"RESISTOR, European symbol";"";"";"";"";"";
+"1";"BTA16";"BT138-V";"TO220BV";"T1_THT";"TRIAC";"";"";"";"";"";
+"1";"BTA16";"IRG4BC15UD-S";"D2PACK";"T1_SMT";"INSULATED GATE BIPOLAR TRANSISTOR";"";"";"";"";"";
+"7";"LG_T679-E1F1-1";"LG_T679-E1F1-1";"PLCC2";"KILL_SW_OK, MC_OK, RES1_OK, RES2_OK, RES3_OK, THRM_IGBT_OK, THRM_POT_OK";"LC TOPLED® Low Current LED";"green";"";"";"";"";
+"1";"MOC3031S";"MOC3031S";"DIL6-SMD";"OK1";"6-Pin DIP Zero-Cross Optoisolators Triac Driver Output (250/400 Volt Peak)";"";"FAIRCHILD SEMICONDUCTOR";"MOC3031SM";"unknown";"34C1335";
