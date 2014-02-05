@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,12 +39,12 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -4552,158 +4552,6 @@ Source: http://catalog.osram-os.com .. LG_LS_LY_T679_OBS.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="transistor-power">
-<description>&lt;b&gt;Power Transistors&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="D2PACK">
-<description>&lt;b&gt;D2PACK&lt;/b&gt;&lt;p&gt;
-INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
-<wire x1="-5.1308" y1="-4.0894" x2="5.1308" y2="-4.0894" width="0.254" layer="21"/>
-<wire x1="5.1308" y1="-4.0894" x2="5.1308" y2="4.445" width="0.254" layer="51"/>
-<wire x1="5.1308" y1="4.445" x2="3.1242" y2="5.8166" width="0.254" layer="51"/>
-<wire x1="3.1242" y1="5.8166" x2="-3.3782" y2="5.8166" width="0.254" layer="51"/>
-<wire x1="-3.3782" y1="5.8166" x2="-5.1308" y2="4.699" width="0.254" layer="51"/>
-<wire x1="-5.1308" y1="4.699" x2="-5.1308" y2="4.445" width="0.254" layer="51"/>
-<wire x1="-5.1308" y1="4.445" x2="-5.1308" y2="-4.0894" width="0.254" layer="51"/>
-<wire x1="-5.1308" y1="4.445" x2="5.1308" y2="4.445" width="0.254" layer="51"/>
-<wire x1="-5.1308" y1="-4.0894" x2="-5.1308" y2="-2.3114" width="0.254" layer="21"/>
-<wire x1="5.1308" y1="-4.0894" x2="5.1308" y2="-2.3114" width="0.254" layer="21"/>
-<smd name="1" x="-2.54" y="-8.89" dx="2.0828" dy="3.81" layer="1"/>
-<smd name="3" x="2.54" y="-8.89" dx="2.0828" dy="3.81" layer="1"/>
-<smd name="2" x="0" y="2.54" dx="11.43" dy="8.89" layer="1"/>
-<text x="-5.588" y="7.239" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.81" y="-3.429" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-3.0988" y1="-9.525" x2="-1.9812" y2="-8.1026" layer="51"/>
-<rectangle x1="-3.2512" y1="-8.1534" x2="-1.8288" y2="-6.731" layer="51"/>
-<rectangle x1="-3.2512" y1="-6.731" x2="-1.8288" y2="-4.2418" layer="21"/>
-<rectangle x1="1.9812" y1="-9.525" x2="3.0988" y2="-8.1026" layer="51"/>
-<rectangle x1="1.8288" y1="-8.1534" x2="3.2512" y2="-6.731" layer="51"/>
-<rectangle x1="1.8288" y1="-6.731" x2="3.2512" y2="-4.2418" layer="21"/>
-<rectangle x1="-0.7112" y1="-6.731" x2="0.7112" y2="-4.2418" layer="21"/>
-</package>
-<package name="TO262-V">
-<description>&lt;b&gt;Molded Package&lt;/b&gt;</description>
-<wire x1="-4.6228" y1="-1.3716" x2="4.6228" y2="-1.3716" width="0.254" layer="21"/>
-<wire x1="4.6228" y1="-1.3716" x2="5.1308" y2="0.1524" width="0.254" layer="21"/>
-<wire x1="5.1308" y1="0.1524" x2="5.1308" y2="1.7526" width="0.254" layer="21"/>
-<wire x1="-5.1308" y1="1.7526" x2="-5.1308" y2="0.1524" width="0.254" layer="21"/>
-<wire x1="-5.1308" y1="0.1524" x2="-4.6228" y2="-1.3716" width="0.254" layer="21"/>
-<wire x1="-5.1308" y1="1.7526" x2="5.1308" y2="1.7526" width="0.254" layer="21"/>
-<pad name="1" x="-2.54" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="2" x="0" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="3" x="2.54" y="0" drill="1.016" shape="long" rot="R90"/>
-<text x="-4.953" y="-3.175" size="1.27" layer="25">&gt;NAME</text>
-<text x="-5.08" y="3.937" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-5.2832" y1="1.778" x2="5.2832" y2="3.2004" layer="21"/>
-</package>
-<package name="TO262-H">
-<description>&lt;b&gt;Molded Package&lt;/b&gt;</description>
-<wire x1="-5.1308" y1="-4.9784" x2="5.1308" y2="-4.9784" width="0.254" layer="21"/>
-<wire x1="5.1308" y1="-4.9784" x2="5.1308" y2="3.937" width="0.254" layer="21"/>
-<wire x1="5.1308" y1="3.937" x2="3.1242" y2="5.3086" width="0.254" layer="21"/>
-<wire x1="3.1242" y1="5.3086" x2="-3.3782" y2="5.3086" width="0.254" layer="21"/>
-<wire x1="-3.3782" y1="5.3086" x2="-5.1308" y2="4.191" width="0.254" layer="21"/>
-<wire x1="-5.1308" y1="4.191" x2="-5.1308" y2="3.937" width="0.254" layer="21"/>
-<wire x1="-5.1308" y1="3.937" x2="-5.1308" y2="-4.9784" width="0.254" layer="21"/>
-<wire x1="-5.1308" y1="3.937" x2="5.1308" y2="3.937" width="0.254" layer="21"/>
-<pad name="1" x="-2.54" y="-12.7" drill="1.016" shape="long" rot="R90"/>
-<pad name="2" x="0" y="-12.7" drill="1.016" shape="long" rot="R90"/>
-<pad name="3" x="2.54" y="-12.7" drill="1.016" shape="long" rot="R90"/>
-<text x="-5.588" y="6.35" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.81" y="-4.318" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-3.2512" y1="-9.0424" x2="-1.8288" y2="-7.62" layer="21"/>
-<rectangle x1="-3.2512" y1="-7.62" x2="-1.8288" y2="-5.1308" layer="21"/>
-<rectangle x1="1.8288" y1="-7.62" x2="3.2512" y2="-5.1308" layer="21"/>
-<rectangle x1="-0.7112" y1="-7.62" x2="0.7112" y2="-5.1308" layer="21"/>
-<rectangle x1="-0.7112" y1="-9.0424" x2="0.7112" y2="-7.62" layer="21"/>
-<rectangle x1="1.8288" y1="-9.0424" x2="3.2512" y2="-7.62" layer="21"/>
-<rectangle x1="-2.921" y1="-12.954" x2="-2.159" y2="-9.017" layer="51"/>
-<rectangle x1="-0.381" y1="-12.954" x2="0.381" y2="-9.017" layer="51"/>
-<rectangle x1="2.159" y1="-12.954" x2="2.921" y2="-9.017" layer="51"/>
-</package>
-</packages>
-<symbols>
-<symbol name="NCHAN_IGBT">
-<wire x1="2.4892" y1="-2.5146" x2="0.508" y2="-1.778" width="0.1524" layer="94"/>
-<wire x1="1.4732" y1="-1.6764" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="1.1684" y2="-2.4892" width="0.1524" layer="94"/>
-<wire x1="1.1684" y1="-2.4892" x2="1.4732" y2="-1.6764" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="-2.54" x2="-1.27" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="-0.381" x2="0.508" y2="0" width="0.1524" layer="94"/>
-<wire x1="0.508" y1="2.286" x2="0.508" y2="1.778" width="0.254" layer="94"/>
-<wire x1="0.508" y1="1.778" x2="0.508" y2="1.27" width="0.254" layer="94"/>
-<wire x1="0.508" y1="0.508" x2="0.508" y2="0" width="0.254" layer="94"/>
-<wire x1="0.508" y1="0" x2="0.508" y2="-0.508" width="0.254" layer="94"/>
-<wire x1="0.508" y1="-1.27" x2="0.508" y2="-1.778" width="0.254" layer="94"/>
-<wire x1="0.508" y1="-1.778" x2="0.508" y2="-2.286" width="0.254" layer="94"/>
-<wire x1="1.524" y1="-1.9812" x2="1.9812" y2="-2.3368" width="0.4064" layer="94"/>
-<wire x1="1.9812" y1="-2.3368" x2="1.4224" y2="-2.3368" width="0.4064" layer="94"/>
-<wire x1="0.5588" y1="1.8034" x2="2.54" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="1.5748" y1="2.6416" x2="0.508" y2="1.778" width="0.1524" layer="94"/>
-<wire x1="0.508" y1="1.778" x2="1.8796" y2="1.8288" width="0.1524" layer="94"/>
-<wire x1="1.8796" y1="1.8288" x2="1.5748" y2="2.6416" width="0.1524" layer="94"/>
-<wire x1="1.524" y1="2.3368" x2="1.0668" y2="1.9812" width="0.4064" layer="94"/>
-<wire x1="1.0668" y1="1.9812" x2="1.6256" y2="1.9812" width="0.4064" layer="94"/>
-<wire x1="2.5908" y1="2.54" x2="3.6068" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="3.6068" y1="2.54" x2="3.6068" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="3.6068" y1="-2.54" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="3.2004" y1="0.4572" x2="4.0132" y2="0.4572" width="0.1524" layer="94"/>
-<wire x1="3.556" y1="0.3556" x2="3.2004" y2="-0.4572" width="0.1524" layer="94"/>
-<wire x1="3.2004" y1="-0.4572" x2="4.0132" y2="-0.4572" width="0.1524" layer="94"/>
-<wire x1="4.0132" y1="-0.4572" x2="3.6576" y2="0.3556" width="0.1524" layer="94"/>
-<wire x1="3.4544" y1="-0.3048" x2="3.556" y2="0.0508" width="0.3048" layer="94"/>
-<wire x1="3.81" y1="-0.3556" x2="3.6576" y2="0" width="0.3048" layer="94"/>
-<text x="-9.144" y="5.08" size="1.778" layer="95">&gt;NAME</text>
-<text x="-9.144" y="2.921" size="1.778" layer="96">&gt;VALUE</text>
-<rectangle x1="-1.4224" y1="-2.6416" x2="-0.7112" y2="2.6416" layer="94"/>
-<pin name="G" x="-5.08" y="-2.54" visible="off" length="short" direction="pas"/>
-<pin name="E" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="C" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="IRG4BC15UD-" prefix="Q" uservalue="yes">
-<description>&lt;b&gt;INSULATED GATE BIPOLAR TRANSISTOR&lt;/b&gt;&lt;p&gt;
- WITH ULTRAFAST SOFT RECOVERY DIODE</description>
-<gates>
-<gate name="G$1" symbol="NCHAN_IGBT" x="0" y="0"/>
-</gates>
-<devices>
-<device name="S" package="D2PACK">
-<connects>
-<connect gate="G$1" pin="C" pad="2"/>
-<connect gate="G$1" pin="E" pad="3"/>
-<connect gate="G$1" pin="G" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-L" package="TO262-V">
-<connects>
-<connect gate="G$1" pin="C" pad="2"/>
-<connect gate="G$1" pin="E" pad="3"/>
-<connect gate="G$1" pin="G" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="L-V" package="TO262-H">
-<connects>
-<connect gate="G$1" pin="C" pad="2"/>
-<connect gate="G$1" pin="E" pad="3"/>
-<connect gate="G$1" pin="G" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -4731,22 +4579,25 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 <part name="RES2" library="pinhead" deviceset="PINHD-1X2" device=""/>
 <part name="RES3" library="pinhead" deviceset="PINHD-1X2" device=""/>
 <part name="KILL_SW" library="pinhead" deviceset="PINHD-1X2" device=""/>
-<part name="R4" library="rcl" deviceset="R-EU_" device="M0805" value="819"/>
-<part name="R5" library="rcl" deviceset="R-EU_" device="M0805" value="819"/>
-<part name="R6" library="rcl" deviceset="R-EU_" device="M0805" value="819"/>
-<part name="R7" library="rcl" deviceset="R-EU_" device="M0805" value="819"/>
-<part name="R8" library="rcl" deviceset="R-EU_" device="M0805" value="819"/>
+<part name="R4" library="rcl" deviceset="R-EU_" device="M0805" value="1k"/>
+<part name="R5" library="rcl" deviceset="R-EU_" device="M0805" value="1k"/>
+<part name="R6" library="rcl" deviceset="R-EU_" device="M0805" value="1k"/>
+<part name="R7" library="rcl" deviceset="R-EU_" device="M0805" value="1k"/>
+<part name="R8" library="rcl" deviceset="R-EU_" device="M0805" value="1k"/>
 <part name="RES2_OK" library="led" deviceset="*_T679-?-1" device="E1F1" technology="LG"/>
 <part name="RES1_OK" library="led" deviceset="*_T679-?-1" device="E1F1" technology="LG"/>
 <part name="THRM_IGBT_OK" library="led" deviceset="*_T679-?-1" device="E1F1" technology="LG"/>
 <part name="THRM_POT_OK" library="led" deviceset="*_T679-?-1" device="E1F1" technology="LG"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="KILL_SW_OK" library="led" deviceset="*_T679-?-1" device="E1F1" technology="LG"/>
-<part name="R9" library="rcl" deviceset="R-EU_" device="M0805" value="819"/>
-<part name="R10" library="rcl" deviceset="R-EU_" device="M0805" value="819"/>
+<part name="R9" library="rcl" deviceset="R-EU_" device="M0805" value="1k"/>
+<part name="R10" library="rcl" deviceset="R-EU_" device="M0805" value="1k"/>
 <part name="MC_OK" library="led" deviceset="*_T679-?-1" device="E1F1" technology="LG"/>
-<part name="T1_SMT" library="transistor-power" deviceset="IRG4BC15UD-" device="S" value="BTA16"/>
-<part name="T1_THT" library="triac" deviceset="BT138" device="-V" value="BTA16"/>
+<part name="T1_THT" library="triac" deviceset="BT138" device="-V" value="BTA16">
+<attribute name="USE_DEVICE" value="BTA_16"/>
+</part>
+<part name="PWR_SW_LED" library="pinhead" deviceset="PINHD-1X2" device=""/>
+<part name="GND5" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4787,8 +4638,13 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 <instance part="R9" gate="G$1" x="182.88" y="12.7" rot="R90"/>
 <instance part="R10" gate="G$1" x="261.62" y="12.7" rot="R90"/>
 <instance part="MC_OK" gate="G$1" x="261.62" y="5.08"/>
-<instance part="T1_SMT" gate="G$1" x="127" y="55.88" rot="R180"/>
-<instance part="T1_THT" gate="G$1" x="129.54" y="40.64" rot="R180"/>
+<instance part="T1_THT" gate="G$1" x="129.54" y="40.64" smashed="yes" rot="R180">
+<attribute name="USE_DEVICE" x="139.7" y="33.02" size="1.778" layer="96" rot="R180" display="both"/>
+<attribute name="NAME" x="125.73" y="38.1" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="128.27" y="43.18" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="PWR_SW_LED" gate="G$1" x="170.18" y="22.86" rot="R270"/>
+<instance part="GND5" gate="1" x="165.1" y="12.7"/>
 </instances>
 <busses>
 </busses>
@@ -4812,13 +4668,8 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 <net name="L_IN" class="0">
 <segment>
 <pinref part="PWR" gate="-1" pin="KL"/>
-<wire x1="106.68" y1="45.72" x2="116.84" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="45.72" x2="129.54" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="45.72" x2="129.54" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="1"/>
-<pinref part="T1_SMT" gate="G$1" pin="E"/>
-<wire x1="124.46" y1="60.96" x2="116.84" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="60.96" x2="116.84" y2="45.72" width="0.1524" layer="91"/>
-<junction x="116.84" y="45.72"/>
 <pinref part="T1_THT" gate="G$1" pin="A1"/>
 <wire x1="129.54" y1="43.18" x2="129.54" y2="45.72" width="0.1524" layer="91"/>
 <junction x="129.54" y="45.72"/>
@@ -4827,13 +4678,8 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 <net name="L_OUT" class="0">
 <segment>
 <pinref part="PWR" gate="-3" pin="KL"/>
-<pinref part="T1_SMT" gate="G$1" pin="C"/>
-<wire x1="119.38" y1="35.56" x2="106.68" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="50.8" x2="119.38" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="50.8" x2="119.38" y2="35.56" width="0.1524" layer="91"/>
-<junction x="119.38" y="35.56"/>
+<wire x1="129.54" y1="35.56" x2="106.68" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="T1_THT" gate="G$1" pin="A2"/>
-<wire x1="129.54" y1="35.56" x2="119.38" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TRIAC_DRV" class="0">
@@ -4842,10 +4688,6 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 <wire x1="144.78" y1="45.72" x2="142.24" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="45.72" x2="142.24" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="40.64" x2="134.62" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="T1_SMT" gate="G$1" pin="G"/>
-<wire x1="132.08" y1="58.42" x2="142.24" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="58.42" x2="142.24" y2="45.72" width="0.1524" layer="91"/>
-<junction x="142.24" y="45.72"/>
 <pinref part="T1_THT" gate="G$1" pin="G"/>
 </segment>
 </net>
@@ -4895,6 +4737,12 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 <pinref part="MC_OK" gate="G$1" pin="C"/>
 <wire x1="261.62" y1="0" x2="248.92" y2="0" width="0.1524" layer="91"/>
 <junction x="248.92" y="0"/>
+</segment>
+<segment>
+<pinref part="PWR_SW_LED" gate="G$1" pin="2"/>
+<wire x1="170.18" y1="25.4" x2="165.1" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="25.4" x2="165.1" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="GND5" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="IH_OFF" class="0">
@@ -5046,6 +4894,10 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 <pinref part="R9" gate="G$1" pin="2"/>
 <wire x1="182.88" y1="17.78" x2="182.88" y2="27.94" width="0.1524" layer="91"/>
 <junction x="182.88" y="27.94"/>
+<pinref part="PWR_SW_LED" gate="G$1" pin="1"/>
+<wire x1="180.34" y1="27.94" x2="172.72" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="27.94" x2="172.72" y2="25.4" width="0.1524" layer="91"/>
+<junction x="180.34" y="27.94"/>
 </segment>
 </net>
 <net name="N$9" class="0">

@@ -1,0 +1,50 @@
+1A (Motor, Valve) 0.2 mm2 take: 0.5mm2 Douter 5mm
+Inputs and IH: 16A 1.5mm2
+
+
+
+Needed cables:
+
+
+Motor to controller, comes with motor
+
+
+Proxsw+Valve: 4 wires 0.2 each Douter 4mm
+
+
+Cover closed switch: peanuts.
+
+
+Pressure sensor: USB Mini
+
+
+
+Input to PSU: 1.5mm2 x 3 incl gnd
+
+PSU to safety chain: 1.5mm2 x2
+
+
+Safety chain to IH: 1.5mm2 x 2
+
+
+PSU to Mainboard: 4x 0.2 mm2
+
+
+
+Buttons to Mainboard: 
+4 x 2 x peanuts
+
+
+
+Display to MB: Flat cable 12pin
+
+Mainboard to Safety: Flat 12
+
+Safety to IH flat 6.
+
+
+
+Flat plugs exist as:
+2.8
+4.8
+6.3
