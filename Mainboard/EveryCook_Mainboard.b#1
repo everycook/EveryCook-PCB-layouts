@@ -136,8 +136,8 @@
 <text x="95.7834" y="72.3138" size="2.54" layer="21" font="vector" ratio="12">+</text>
 <text x="82.7024" y="78.7908" size="2.54" layer="21" font="vector" ratio="12">+</text>
 <text x="95.504" y="78.2828" size="2.54" layer="21" font="vector" ratio="15">-</text>
-<text x="90.1954" y="75.2348" size="2.54" layer="21" font="vector" ratio="12">p</text>
-<text x="87.9094" y="75.2348" size="2.54" layer="21" font="vector" ratio="12">v</text>
+<text x="90.3224" y="74.3458" size="2.54" layer="21" font="vector" ratio="12">p</text>
+<text x="87.2744" y="74.2188" size="2.54" layer="21" font="vector" ratio="12">v</text>
 <text x="6.35" y="75.7428" size="2.54" layer="21" font="vector" ratio="15">1</text>
 <text x="59.69" y="75.8952" size="2.54" layer="21" font="vector" ratio="15" rot="R180">1</text>
 <text x="69.469" y="68.6308" size="1.27" layer="21" font="vector" ratio="15">Safety 
@@ -2909,8 +2909,8 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="84.582" y="75.565" size="0.6096" layer="27" rot="R180"/>
 </element>
 <element name="R7" library="rcl" package="R0805" value="10k" x="76.2" y="75.438" smashed="yes" rot="R180">
-<attribute name="NAME" x="77.216" y="76.962" size="0.6096" layer="25" rot="R180"/>
-<attribute name="VALUE" x="75.311" y="76.962" size="0.6096" layer="27" rot="R180"/>
+<attribute name="NAME" x="76.327" y="77.216" size="0.6096" layer="25" rot="R180"/>
+<attribute name="VALUE" x="75.184" y="77.216" size="0.6096" layer="27" rot="R180"/>
 </element>
 <element name="C8" library="rcl" package="C0805" value="0.1uF" x="62.738" y="36.576" smashed="yes">
 <attribute name="NAME" x="58.42" y="35.814" size="1.27" layer="25"/>

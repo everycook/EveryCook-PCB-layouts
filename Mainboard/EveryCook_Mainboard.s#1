@@ -12509,11 +12509,11 @@ Theres also a "SHIELD" variant for the Model A without a RJ45 connector.</descri
 <part name="R9" library="rcl" deviceset="R-EU_" device="R0805" value="270"/>
 <part name="TX" library="wirepad" deviceset="WIREPAD" device="SMD1,27-254" value="WIREPADSMD1,27-254"/>
 <part name="RX" library="wirepad" deviceset="WIREPAD" device="SMD1,27-254" value="WIREPADSMD1,27-254"/>
-<part name="GP4" library="wirepad" deviceset="WIREPAD" device="SMD1,27-254"/>
-<part name="GP27" library="wirepad" deviceset="WIREPAD" device="SMD1,27-254"/>
-<part name="GP14" library="wirepad" deviceset="WIREPAD" device="SMD1,27-254"/>
-<part name="GP15" library="wirepad" deviceset="WIREPAD" device="SMD1,27-254"/>
-<part name="GP22" library="wirepad" deviceset="WIREPAD" device="SMD1,27-254"/>
+<part name="GPIO4" library="wirepad" deviceset="WIREPAD" device="SMD1,27-254"/>
+<part name="GPIO27" library="wirepad" deviceset="WIREPAD" device="SMD1,27-254"/>
+<part name="GPIO14" library="wirepad" deviceset="WIREPAD" device="SMD1,27-254"/>
+<part name="GPIO15" library="wirepad" deviceset="WIREPAD" device="SMD1,27-254"/>
+<part name="GPIO22" library="wirepad" deviceset="WIREPAD" device="SMD1,27-254"/>
 </parts>
 <sheets>
 <sheet>
@@ -12681,11 +12681,11 @@ Theres also a "SHIELD" variant for the Model A without a RJ45 connector.</descri
 <instance part="R9" gate="G$1" x="148.59" y="83.82" rot="R180"/>
 <instance part="TX" gate="G$1" x="116.84" y="104.14" rot="R180"/>
 <instance part="RX" gate="G$1" x="124.46" y="101.6" rot="R180"/>
-<instance part="GP4" gate="G$1" x="5.08" y="48.26"/>
-<instance part="GP27" gate="G$1" x="91.44" y="33.02" rot="R180"/>
-<instance part="GP14" gate="G$1" x="99.06" y="60.96" rot="R180"/>
-<instance part="GP15" gate="G$1" x="99.06" y="53.34" rot="R180"/>
-<instance part="GP22" gate="G$1" x="99.06" y="43.18" rot="R180"/>
+<instance part="GPIO4" gate="G$1" x="5.08" y="48.26"/>
+<instance part="GPIO27" gate="G$1" x="91.44" y="33.02" rot="R180"/>
+<instance part="GPIO14" gate="G$1" x="99.06" y="60.96" rot="R180"/>
+<instance part="GPIO15" gate="G$1" x="99.06" y="53.34" rot="R180"/>
+<instance part="GPIO22" gate="G$1" x="99.06" y="43.18" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -14181,7 +14181,7 @@ Theres also a "SHIELD" variant for the Model A without a RJ45 connector.</descri
 </net>
 <net name="N$16" class="0">
 <segment>
-<pinref part="GP4" gate="G$1" pin="P"/>
+<pinref part="GPIO4" gate="G$1" pin="P"/>
 <pinref part="U$5" gate="G$1" pin="GPIO4/GPCLK0"/>
 <wire x1="7.62" y1="48.26" x2="16.51" y2="48.26" width="0.1524" layer="91"/>
 </segment>
@@ -14189,28 +14189,28 @@ Theres also a "SHIELD" variant for the Model A without a RJ45 connector.</descri
 <net name="N$17" class="0">
 <segment>
 <pinref part="U$5" gate="G$1" pin="GPIO27"/>
-<pinref part="GP27" gate="G$1" pin="P"/>
+<pinref part="GPIO27" gate="G$1" pin="P"/>
 <wire x1="80.01" y1="33.02" x2="88.9" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$18" class="0">
 <segment>
 <pinref part="U$5" gate="G$1" pin="GPIO22"/>
-<pinref part="GP22" gate="G$1" pin="P"/>
+<pinref part="GPIO22" gate="G$1" pin="P"/>
 <wire x1="80.01" y1="43.18" x2="96.52" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$19" class="0">
 <segment>
 <pinref part="U$5" gate="G$1" pin="UART0_RXD/GPIO15"/>
-<pinref part="GP15" gate="G$1" pin="P"/>
+<pinref part="GPIO15" gate="G$1" pin="P"/>
 <wire x1="80.01" y1="55.88" x2="96.52" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="55.88" x2="96.52" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$21" class="0">
 <segment>
-<pinref part="GP14" gate="G$1" pin="P"/>
+<pinref part="GPIO14" gate="G$1" pin="P"/>
 <wire x1="96.52" y1="60.96" x2="96.52" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="U$5" gate="G$1" pin="UART0_TXD/GPIO14"/>
 <wire x1="96.52" y1="58.42" x2="80.01" y2="58.42" width="0.1524" layer="91"/>
