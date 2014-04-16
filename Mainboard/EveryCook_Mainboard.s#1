@@ -19371,9 +19371,9 @@ Theres also a "SHIELD" variant for the Model A without a RJ45 connector.</descri
 <wire x1="-45.72" y1="162.56" x2="-45.72" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="-IN"/>
 <wire x1="-30.48" y1="173.99" x2="-33.02" y2="173.99" width="0.1524" layer="91"/>
-<wire x1="-33.02" y1="173.99" x2="-33.02" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="-33.02" y1="173.99" x2="-33.02" y2="171.45" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="-33.02" y1="170.18" x2="-35.56" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="-33.02" y1="171.45" x2="-35.56" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="-35.56" y1="170.18" x2="-35.56" y2="165.1" width="0.1524" layer="91"/>
 <junction x="-35.56" y="170.18"/>
 <wire x1="-35.56" y1="165.1" x2="-43.18" y2="165.1" width="0.1524" layer="91"/>
@@ -20345,7 +20345,7 @@ Theres also a "SHIELD" variant for the Model A without a RJ45 connector.</descri
 <pinref part="R5" gate="G$1" pin="1"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="IC1" gate="G$1" pin="+IN"/>
-<wire x1="-30.48" y1="179.07" x2="-35.56" y2="179.07" width="0.1524" layer="91"/>
+<wire x1="-30.48" y1="179.07" x2="-35.56" y2="180.34" width="0.1524" layer="91"/>
 <junction x="-35.56" y="180.34"/>
 <wire x1="-35.56" y1="179.07" x2="-35.56" y2="180.34" width="0.1524" layer="91"/>
 </segment>
