@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -18944,7 +18944,7 @@ Theres also a "SHIELD" variant for the Model A without a RJ45 connector.</descri
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="BUT2+3" library="pinhead" deviceset="PINHD-1X3" device=""/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
-<part name="AIN" library="pinhead" deviceset="PINHD-1X2" device=""/>
+<part name="AUDIO" library="pinhead" deviceset="PINHD-1X2" device=""/>
 <part name="U$5" library="raspberry_mirr" deviceset="RPI-B-V2" device=""/>
 <part name="T3" library="transistor" deviceset="*-NPN-" device="SOT23-BEC" technology="MMBT2222ALT1"/>
 <part name="P+6" library="supply1" deviceset="+5V" device=""/>
@@ -18957,6 +18957,8 @@ Theres also a "SHIELD" variant for the Model A without a RJ45 connector.</descri
 <part name="GP14" library="wirepad" deviceset="WIREPAD" device="SMD1,27-254"/>
 <part name="GP15" library="wirepad" deviceset="WIREPAD" device="SMD1,27-254"/>
 <part name="GP22" library="wirepad" deviceset="WIREPAD" device="SMD1,27-254"/>
+<part name="R10" library="rcl" deviceset="R-EU_" device="R0805" value="10k"/>
+<part name="GND33" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -19116,7 +19118,7 @@ Theres also a "SHIELD" variant for the Model A without a RJ45 connector.</descri
 <instance part="GND19" gate="1" x="113.03" y="189.23"/>
 <instance part="BUT2+3" gate="A" x="149.86" y="35.56" rot="R90"/>
 <instance part="GND20" gate="1" x="138.43" y="24.13"/>
-<instance part="AIN" gate="G$1" x="-53.34" y="180.34" rot="R180"/>
+<instance part="AUDIO" gate="G$1" x="-53.34" y="180.34" rot="R180"/>
 <instance part="U$5" gate="G$1" x="41.91" y="27.94"/>
 <instance part="T3" gate="G$1" x="157.48" y="83.82"/>
 <instance part="P+6" gate="1" x="162.56" y="93.98" rot="R90"/>
@@ -19129,6 +19131,8 @@ Theres also a "SHIELD" variant for the Model A without a RJ45 connector.</descri
 <instance part="GP14" gate="G$1" x="99.06" y="60.96" rot="R180"/>
 <instance part="GP15" gate="G$1" x="99.06" y="53.34" rot="R180"/>
 <instance part="GP22" gate="G$1" x="99.06" y="43.18" rot="R180"/>
+<instance part="R10" gate="G$1" x="92.71" y="78.74" rot="R90"/>
+<instance part="GND33" gate="1" x="92.71" y="69.85"/>
 </instances>
 <busses>
 </busses>
@@ -19386,7 +19390,7 @@ Theres also a "SHIELD" variant for the Model A without a RJ45 connector.</descri
 <wire x1="7.62" y1="176.53" x2="7.62" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="165.1" x2="-25.4" y2="165.1" width="0.1524" layer="91"/>
 <junction x="-25.4" y="165.1"/>
-<pinref part="AIN" gate="G$1" pin="1"/>
+<pinref part="AUDIO" gate="G$1" pin="1"/>
 <wire x1="-50.8" y1="177.8" x2="-43.18" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="-43.18" y1="177.8" x2="-43.18" y2="165.1" width="0.1524" layer="91"/>
 <junction x="-43.18" y="165.1"/>
@@ -19450,6 +19454,11 @@ Theres also a "SHIELD" variant for the Model A without a RJ45 connector.</descri
 <pinref part="T3" gate="G$1" pin="E"/>
 <pinref part="GND21" gate="1" pin="GND"/>
 <wire x1="160.02" y1="77.47" x2="160.02" y2="78.74" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R10" gate="G$1" pin="1"/>
+<pinref part="GND33" gate="1" pin="GND"/>
+<wire x1="92.71" y1="73.66" x2="92.71" y2="72.39" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -20292,6 +20301,9 @@ Theres also a "SHIELD" variant for the Model A without a RJ45 connector.</descri
 <pinref part="T2" gate="B" pin="B"/>
 <wire x1="92.71" y1="86.36" x2="92.71" y2="93.98" width="0.1524" layer="91"/>
 <junction x="92.71" y="93.98"/>
+<pinref part="R10" gate="G$1" pin="2"/>
+<wire x1="92.71" y1="86.36" x2="92.71" y2="83.82" width="0.1524" layer="91"/>
+<junction x="92.71" y="86.36"/>
 </segment>
 </net>
 <net name="SAFETY_CHAIN" class="0">
@@ -20371,7 +20383,7 @@ Theres also a "SHIELD" variant for the Model A without a RJ45 connector.</descri
 <pinref part="C4" gate="G$1" pin="2"/>
 <wire x1="-44.45" y1="189.23" x2="-43.18" y2="189.23" width="0.1524" layer="91"/>
 <wire x1="-44.45" y1="189.23" x2="-44.45" y2="180.34" width="0.1524" layer="91"/>
-<pinref part="AIN" gate="G$1" pin="2"/>
+<pinref part="AUDIO" gate="G$1" pin="2"/>
 <wire x1="-44.45" y1="180.34" x2="-50.8" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 </net>
