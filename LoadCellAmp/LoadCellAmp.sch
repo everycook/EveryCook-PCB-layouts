@@ -7730,6 +7730,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="C5" library="resistor" deviceset="C-EU" device="C0805"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
+<part name="GND9" library="testpad" deviceset="TP" device="B1,27"/>
+<part name="GND10" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7767,6 +7769,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="GND7" gate="1" x="-22.86" y="22.86"/>
 <instance part="C5" gate="G$1" x="81.28" y="53.34" rot="R90"/>
 <instance part="GND8" gate="1" x="73.66" y="50.8"/>
+<instance part="GND9" gate="G$1" x="0" y="66.04"/>
+<instance part="GND10" gate="1" x="0" y="58.42"/>
 </instances>
 <busses>
 </busses>
@@ -7826,6 +7830,11 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="GND8" gate="1" pin="GND"/>
 <pinref part="C5" gate="G$1" pin="1"/>
 <wire x1="78.74" y1="53.34" x2="73.66" y2="53.34" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND9" gate="G$1" pin="TP"/>
+<pinref part="GND10" gate="1" pin="GND"/>
+<wire x1="0" y1="60.96" x2="0" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+5V" class="0">
