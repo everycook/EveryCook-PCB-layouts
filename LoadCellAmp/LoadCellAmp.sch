@@ -7700,7 +7700,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </classes>
 <parts>
 <part name="IC1" library="analog-devices" deviceset="AD623" device="RM"/>
-<part name="C1" library="resistor" deviceset="C-EU" device="C0805"/>
+<part name="C1" library="resistor" deviceset="C-EU" device="C0805" value="1uF"/>
 <part name="R2" library="rcl" deviceset="R-EU_" device="R0805" value="100"/>
 <part name="LC_V+" library="testpad" deviceset="TP" device="B1,27"/>
 <part name="LC_SIG+" library="testpad" deviceset="TP" device="B1,27"/>
@@ -7719,16 +7719,16 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="R4" library="rcl" deviceset="R-EU_" device="R0805" value="2k"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="P+4" library="supply1" deviceset="+5V" device=""/>
-<part name="C2" library="resistor" deviceset="C-EU" device="C0805"/>
+<part name="C2" library="resistor" deviceset="C-EU" device="C0805" value="1uF"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="R5" library="rcl" deviceset="R-EU_" device="R0805"/>
-<part name="R6" library="rcl" deviceset="R-EU_" device="R0805"/>
-<part name="C3" library="resistor" deviceset="C-EU" device="C0805"/>
-<part name="C4" library="resistor" deviceset="C-EU" device="C0805"/>
+<part name="R5" library="rcl" deviceset="R-EU_" device="R0805" value="16k"/>
+<part name="R6" library="rcl" deviceset="R-EU_" device="R0805" value="16k"/>
+<part name="C3" library="resistor" deviceset="C-EU" device="C0805" value="1uF"/>
+<part name="C4" library="resistor" deviceset="C-EU" device="C0805" value="1uF"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
-<part name="C5" library="resistor" deviceset="C-EU" device="C0805"/>
+<part name="C5" library="resistor" deviceset="C-EU" device="C0805" value="1uF"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="GND9" library="testpad" deviceset="TP" device="B1,27"/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
