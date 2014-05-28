@@ -1,10 +1,11 @@
 "Part";"Value";"Device";"Package";"Description";"MF";"MPN";"OC_FARNELL";"OC_NEWARK";"TP_SIGNAL_NAME";
-"C1";"";"C-EUC0805";"C0805";"CAPACITOR, European symbol";"";"";"";"";"";
-"C2";"";"C-EUC0805";"C0805";"CAPACITOR, European symbol";"";"";"";"";"";
-"C3";"";"C-EUC0805";"C0805";"CAPACITOR, European symbol";"";"";"";"";"";
-"C4";"";"C-EUC0805";"C0805";"CAPACITOR, European symbol";"";"";"";"";"";
-"C5";"";"C-EUC0805";"C0805";"CAPACITOR, European symbol";"";"";"";"";"";
+"C1";"1uF";"C-EUC0805";"C0805";"CAPACITOR, European symbol";"";"";"";"";"";
+"C2";"1uF";"C-EUC0805";"C0805";"CAPACITOR, European symbol";"";"";"";"";"";
+"C3";"1uF";"C-EUC0805";"C0805";"CAPACITOR, European symbol";"";"";"";"";"";
+"C4";"1uF";"C-EUC0805";"C0805";"CAPACITOR, European symbol";"";"";"";"";"";
+"C5";"1uF";"C-EUC0805";"C0805";"CAPACITOR, European symbol";"";"";"";"";"";
 "GND";"TPB1,27";"TPB1,27";"B1,27";"Test pad";"";"";"";"";"";
+"GND9";"TPB1,27";"TPB1,27";"B1,27";"Test pad";"";"";"";"";"";
 "IC1";"AD623RM";"AD623RM";"MSOP08";"Single-Supply, Rail-to-Rail, Low Cost Instrumentation Amplifier";"";"AD623ARMZ";"1660961";"19M8824";"";
 "LC_SIG+";"TPB1,27";"TPB1,27";"B1,27";"Test pad";"";"";"";"";"";
 "LC_SIG-";"TPB1,27";"TPB1,27";"B1,27";"Test pad";"";"";"";"";"";
@@ -13,8 +14,8 @@
 "R2";"100";"R-EU_R0805";"R0805";"RESISTOR, European symbol";"";"";"";"";"";
 "R3";"1k";"R-EU_R0805";"R0805";"RESISTOR, European symbol";"";"";"";"";"";
 "R4";"2k";"R-EU_R0805";"R0805";"RESISTOR, European symbol";"";"";"";"";"";
-"R5";"";"R-EU_R0805";"R0805";"RESISTOR, European symbol";"";"";"";"";"";
-"R6";"";"R-EU_R0805";"R0805";"RESISTOR, European symbol";"";"";"";"";"";
+"R5";"16k";"R-EU_R0805";"R0805";"RESISTOR, European symbol";"";"";"";"";"";
+"R6";"16k";"R-EU_R0805";"R0805";"RESISTOR, European symbol";"";"";"";"";"";
 "SIG_GND";"TPB1,27";"TPB1,27";"B1,27";"Test pad";"";"";"";"";"";
 "SIG_OUT";"TPB1,27";"TPB1,27";"B1,27";"Test pad";"";"";"";"";"";
 "V+";"TPB1,27";"TPB1,27";"B1,27";"Test pad";"";"";"";"";"";
